@@ -1,0 +1,24 @@
+{
+  "name": "blog-template",
+  "version": "1.0.0",
+  "description": "blog template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellingtonamaralleitao/blog-template.git"
+  },
+  "keywords": [
+    "template",
+    "blog",
+    "wellyngton"
+  ],
+  "author": "Wellyngton Amaral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wellingtonamaralleitao/blog-template/issues"
+  },
+  "homepage": "https://github.com/wellingtonamaralleitao/blog-template#readme"
+}
