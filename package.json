@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/wellingtonamaralleitao/blog-template/issues"
   },
-  "homepage": "https://github.com/wellingtonamaralleitao/blog-template#readme"
+  "homepage": "https://github.com/wellingtonamaralleitao/blog-template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1"
+  }
 }
