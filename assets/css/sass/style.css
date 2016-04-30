@@ -1,0 +1,340 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?di36mh");
+  src: url("fonts/icomoon.eot?di36mh#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?di36mh") format("truetype"), url("fonts/icomoon.woff?di36mh") format("woff"), url("fonts/icomoon.svg?di36mh#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-home:before {
+  content: "\e900"; }
+
+.icon-pencil:before {
+  content: "\e901"; }
+
+.icon-image:before {
+  content: "\e902"; }
+
+.icon-film:before {
+  content: "\e903"; }
+
+.icon-pacman:before {
+  content: "\e904"; }
+
+.icon-connection:before {
+  content: "\e905"; }
+
+.icon-file-text:before {
+  content: "\e906"; }
+
+.icon-file-empty:before {
+  content: "\e907"; }
+
+.icon-folder:before {
+  content: "\e908"; }
+
+.icon-address-book:before {
+  content: "\e909"; }
+
+.icon-envelop:before {
+  content: "\e90a"; }
+
+.icon-location:before {
+  content: "\e90b"; }
+
+.icon-alarm:before {
+  content: "\e90c"; }
+
+.icon-bell:before {
+  content: "\e90d"; }
+
+.icon-display:before {
+  content: "\e90e"; }
+
+.icon-laptop:before {
+  content: "\e90f"; }
+
+.icon-mobile:before {
+  content: "\e910"; }
+
+.icon-tablet:before {
+  content: "\e911"; }
+
+.icon-box-add:before {
+  content: "\e912"; }
+
+.icon-box-remove:before {
+  content: "\e913"; }
+
+.icon-undo2:before {
+  content: "\e914"; }
+
+.icon-redo2:before {
+  content: "\e915"; }
+
+.icon-bubble:before {
+  content: "\e916"; }
+
+.icon-user:before {
+  content: "\e917"; }
+
+.icon-quotes-left:before {
+  content: "\e918"; }
+
+.icon-quotes-right:before {
+  content: "\e919"; }
+
+.icon-spinner3:before {
+  content: "\e91a"; }
+
+.icon-spinner11:before {
+  content: "\e91b"; }
+
+.icon-zoom-in:before {
+  content: "\e91c"; }
+
+.icon-enlarge:before {
+  content: "\e91d"; }
+
+.icon-shrink:before {
+  content: "\e91e"; }
+
+.icon-fire:before {
+  content: "\e91f"; }
+
+.icon-power:before {
+  content: "\e920"; }
+
+.icon-switch:before {
+  content: "\e921"; }
+
+.icon-list-numbered:before {
+  content: "\e922"; }
+
+.icon-list:before {
+  content: "\e923"; }
+
+.icon-cloud:before {
+  content: "\e924"; }
+
+.icon-cloud-download:before {
+  content: "\e925"; }
+
+.icon-cloud-upload:before {
+  content: "\e926"; }
+
+.icon-earth:before {
+  content: "\e927"; }
+
+.icon-attachment:before {
+  content: "\e928"; }
+
+.icon-happy:before {
+  content: "\e929"; }
+
+.icon-tongue:before {
+  content: "\e92a"; }
+
+.icon-grin:before {
+  content: "\e92b"; }
+
+.icon-evil:before {
+  content: "\e92c"; }
+
+.icon-shocked:before {
+  content: "\e92d"; }
+
+.icon-baffled:before {
+  content: "\e92e"; }
+
+.icon-confused:before {
+  content: "\e92f"; }
+
+.icon-cross:before {
+  content: "\e930"; }
+
+.icon-checkmark2:before {
+  content: "\e931"; }
+
+.icon-play2:before {
+  content: "\e932"; }
+
+.icon-embed:before {
+  content: "\e933"; }
+
+.icon-embed2:before {
+  content: "\e934"; }
+
+.icon-share2:before {
+  content: "\e935"; }
+
+.icon-google-drive:before {
+  content: "\e936"; }
+
+.icon-facebook:before {
+  content: "\e937"; }
+
+.icon-instagram:before {
+  content: "\e938"; }
+
+.icon-whatsapp:before {
+  content: "\e939"; }
+
+.icon-telegram:before {
+  content: "\e93a"; }
+
+.icon-twitter:before {
+  content: "\e93b"; }
+
+.icon-youtube2:before {
+  content: "\e93c"; }
+
+.icon-twitch:before {
+  content: "\e93d"; }
+
+.icon-dropbox:before {
+  content: "\e93e"; }
+
+.icon-github:before {
+  content: "\e93f"; }
+
+.icon-wordpress:before {
+  content: "\e940"; }
+
+.icon-tumblr2:before {
+  content: "\e941"; }
+
+.icon-tux:before {
+  content: "\e942"; }
+
+.icon-appleinc:before {
+  content: "\e943"; }
+
+.icon-android:before {
+  content: "\e944"; }
+
+.icon-linkedin:before {
+  content: "\e945"; }
+
+.icon-chrome:before {
+  content: "\e946"; }
+
+.icon-firefox:before {
+  content: "\e947"; }
+
+.icon-IE:before {
+  content: "\e948"; }
+
+.icon-html-five2:before {
+  content: "\e949"; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  font-size: 45px; }
+
+.cfd-footer {
+  background-color: #000;
+  width: 100%;
+  height: 150px; }
+
+.cfd-container {
+  width: 100%;
+  height: 100%; }
+
+.cfd-container header {
+  height: 700px;
+  background-image: url(../../images/background.png);
+  background-size: cover; }
+
+.cfd-container header .cfd-title {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.cfd-article-posts {
+  background-color: #fff;
+  width: 100%;
+  height: 500px; }
+
+.cfd-article-subjects {
+  background-color: #E6E6E6;
+  width: 100%;
+  height: 350px; }
+
+nav {
+  background-color: #333;
+  width: 100%;
+  position: absolute;
+  top: 0; }
+
+nav .cfd-menubar {
+  float: right; }
+
+nav .cfd-menubar li {
+  display: inline-block; }
+  nav .cfd-menubar li:hover {
+    opacity: 0.4; }
+
+nav .cfd-menubar li a {
+  display: block;
+  color: #fff;
+  padding: 10px; }
