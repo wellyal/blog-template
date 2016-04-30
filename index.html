@@ -28,14 +28,15 @@
     <nav>
       <ul class="cfd-menubar">
         <li><a href="#">Home</a></li>
-        <li><a href="#posts">Posts</a></li>
+        <li><a href="#posts" id="postslist">Posts</a></li>
+        <li><a href="#panel" id="createpost">Create</a></li>
         <li><a href="#subjects">Subjects</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#footer">Contributors</a></li>
       </ul>
     </nav>
 
-    <main class="cfd-article-posts" id="posts">
+    <article class="cfd-article-posts" id="posts">
         <ul class="cfd-posts-list">
           <li class="cfd-post-item">
             <div class="cfd-post-title">
@@ -95,7 +96,52 @@
         </ul>
 
       </div>
-    </main>
+    </article>
+
+   <article class="cfd-article-panel cfd-hidden" id="panel">
+      <div class="cfd-panel-form">
+        <form>
+          <div class="cfd-form-group">
+            <div class="cfd-panel-label">
+              <label>Title</label>
+            </div>
+            <div class="cfd-panel-input">
+              <input type="text" placeholder="Title"></input>
+            </div>
+          </div>
+
+          <div class="cfd-form-group">
+            <div class="cfd-panel-label">
+              <label>Sumary</label>
+            </div>
+            <div class="cfd-panel-input">
+              <input type="text" placeholder="Sumary"></input>
+            </div>
+          </div>
+
+          <div class="cfd-form-group">
+
+            <div class="cfd-panel-input">
+              <textarea></textarea>
+            </div>
+          </div>
+
+          <div class="cfd-form-group">
+            <div class="cfd-panel-input">
+              <input type="submit" value="Send"></input>
+            </div>
+          </div>
+          <div class="cfd-form-group">
+            <div class="cfd-panel-input">
+              <input type="file"></input>
+            </div>
+          </div>
+
+      </form>
+
+      </div>
+
+    </article>
 
     <article class="cfd-article-subjects" id="subjects">
       <ul class="cfd-subjects-list">
@@ -147,5 +193,7 @@
     </footer>
 
   </section>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>

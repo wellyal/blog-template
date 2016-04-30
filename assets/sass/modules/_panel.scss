@@ -1,0 +1,38 @@
+.cfd-article-panel{
+  margin: 5px 50px;
+
+  input, textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 5px;
+    font-size: 14px;
+  }
+
+  textarea {
+    height: 500px;
+  }
+
+  input[type="file"] {
+    width: 280px;
+    height: 30px;
+    padding-top: 8px;
+  }
+
+  input[type="submit"] {
+    width: auto;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    box-sizing: border-box;
+    height: 38px;
+    width: 80px
+  }
+
+  .cfd-form-group {
+    margin: 10px 0
+  }
+}

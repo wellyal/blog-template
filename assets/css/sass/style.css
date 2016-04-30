@@ -358,6 +358,9 @@ h3 {
   font-family: open-sans;
   font-size: 14px; }
 
+.cfd-hidden {
+  display: none !important; }
+
 .cfd-footer {
   background-color: #000;
   width: 100%; }
@@ -406,10 +409,11 @@ h3 {
     top: 50%;
     transform: translateY(-50%); }
   .cfd-header .cfd-header-disclaimer {
-    text-align: center;
     position: relative;
     top: 68%;
-    font-size: 130px; }
+    left: 50%;
+    font-size: 130px;
+    display: table; }
 
 .cfd-article-posts {
   background-color: #fff;
@@ -467,3 +471,31 @@ nav .cfd-menubar li a {
   display: block;
   color: #fff;
   padding: 10px; }
+
+.cfd-article-panel {
+  margin: 5px 50px; }
+  .cfd-article-panel input, .cfd-article-panel textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 5px;
+    font-size: 14px; }
+  .cfd-article-panel textarea {
+    height: 500px; }
+  .cfd-article-panel input[type="file"] {
+    width: 280px;
+    height: 30px;
+    padding-top: 8px; }
+  .cfd-article-panel input[type="submit"] {
+    width: auto;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    box-sizing: border-box;
+    height: 38px;
+    width: 80px; }
+  .cfd-article-panel .cfd-form-group {
+    margin: 10px 0; }
