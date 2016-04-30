@@ -1,5 +1,14 @@
+$background-color-subjects: #E6E6E6;
+
 .cfd-article-subjects {
-  background-color: #E6E6E6;
+  background-color: $background-color-subjects;
   width: 100%;
-  height: 350px;
+
+  .cfd-subjects-list {
+    .cfd-subjects-item {
+        display: inline-block;
+        font-size: 100px;
+        padding: 18px;
+    }
+  }
 }
