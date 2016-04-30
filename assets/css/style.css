@@ -48,6 +48,11 @@ table {
 h1 {
   font-size: 45px; }
 
+.cfd-footer {
+  background-color: #000;
+  width: 100%;
+  height: 150px; }
+
 .cfd-container {
   width: 100%;
   height: 100%; }
@@ -56,21 +61,41 @@ h1 {
   background-image: url(../images/background.png);
   background-size: cover; }
 
+.cfd-logo {
+  display: inline-block;
+  position: relative;
+  padding: 7px;
+  z-index: 9999; }
+
 .cfd-container header .cfd-title {
   text-align: center;
   padding: 250px; }
 
+.cfd-article-posts {
+  background-color: #fff;
+  width: 100%;
+  height: 500px; }
+
+.cfd-article-subjects {
+  background-color: #E6E6E6;
+  width: 100%;
+  height: 350px; }
+
 nav {
+  background-color: #333;
+  width: 100%;
   position: absolute;
   top: 0; }
+
+nav .cfd-menubar {
+  float: right; }
 
 nav .cfd-menubar li {
   display: inline-block; }
   nav .cfd-menubar li:hover {
-    color: #ff0000; }
+    opacity: 0.4; }
 
 nav .cfd-menubar li a {
   display: block;
-  background-color: #333;
   color: #fff;
   padding: 10px; }
