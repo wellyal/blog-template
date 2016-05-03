@@ -415,10 +415,7 @@ h3 {
     margin-left: -57px;
     width: 114px;
     height: 25px;
-    margin-top: -25px;
-    /*text-align: center;
-    position: relative;
-    top: 68%;*/ }
+    margin-top: -25px; }
     .cfd-header .cfd-message-github > span {
       font-size: 18px; }
   .cfd-header .cfd-header-disclaimer {
@@ -474,8 +471,10 @@ h3 {
 nav {
   background-color: #333;
   width: 100%;
-  position: absolute;
-  top: 0; }
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999; }
 
 nav .cfd-menubar {
   float: right; }
