@@ -408,12 +408,30 @@ h3 {
     position: relative;
     top: 50%;
     transform: translateY(-50%); }
-  .cfd-header .cfd-header-disclaimer {
-    position: relative;
-    top: 68%;
+  .cfd-header .cfd-message-github {
+    position: absolute;
     left: 50%;
+    top: 43em;
+    margin-left: -57px;
+    width: 114px;
+    height: 25px;
+    margin-top: -25px;
+    /*text-align: center;
+    position: relative;
+    top: 68%;*/ }
+    .cfd-header .cfd-message-github > span {
+      font-size: 18px; }
+  .cfd-header .cfd-header-disclaimer {
+    position: absolute;
     font-size: 130px;
-    display: table; }
+    left: 50%;
+    top: 5em;
+    margin-left: -65px;
+    width: 130px;
+    height: 150px;
+    margin-top: -75px; }
+    .cfd-header .cfd-header-disclaimer > a {
+      display: inline-flex; }
 
 .cfd-article-posts {
   background-color: #fff;
