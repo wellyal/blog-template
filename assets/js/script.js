@@ -3,6 +3,10 @@ var cfd = cfd || {};
 cfd.menubar = (function() {
   'use strict';
 
+  function initMarkdownEditor() {
+    var simplemde = new SimpleMDE();
+  }
+
   function redirect() {
     $( "#postslist" ).on( 'click', function() {
       $( "#posts" ).removeClass( 'cfd-hidden' );
@@ -27,6 +31,7 @@ cfd.menubar = (function() {
   }
 
   function init() {
+    initMarkdownEditor();
     redirect();
     overGithubIcon();
   }
