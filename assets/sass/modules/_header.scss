@@ -1,5 +1,5 @@
 .cfd-header {
-  height: 700px;
+  height: 98vh;
   background-image: url(../images/background.png);
   background-size: cover;
 
@@ -12,12 +12,8 @@
 
   .cfd-message-github {
     position: absolute;
-    left: 50%;
-    top: 43em;
-    margin-left: -57px;
-    width: 114px;
-    height: 25px;
-    margin-top: -25px;
+    bottom: 105px;
+    left: 46%;
 
     > span {
       font-size: 18px;
@@ -27,18 +23,12 @@
   .cfd-header-disclaimer {
     position: absolute;
     font-size: 130px;
-    left: 50%;
-    top: 5em;
-    margin-left: -65px;
-    width: 130px;
-    height: 150px;
-    margin-top: -75px;
+    bottom: -45px;
+    left: 45%;
 
     > a {
       display: inline-flex;
     }
 
   }
-
-
 }
