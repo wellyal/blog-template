@@ -1,11 +1,11 @@
-$background-color-subjects: #E6E6E6;
+$background-color-categories: #E6E6E6;
 
-.cfd-article-subjects {
-  background-color: $background-color-subjects;
+.cfd-article-categories {
+  background-color: $background-color-categories;
   width: 100%;
 
-  .cfd-subjects-list {
-    .cfd-subjects-item {
+  .cfd-categories-list {
+    .cfd-categories-item {
         display: inline-block;
         font-size: 100px;
         padding: 18px;

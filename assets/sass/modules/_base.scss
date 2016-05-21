@@ -30,7 +30,7 @@ select {margin: inherit;}
 hr {margin: 0;padding: 0;border: 0;color: #000;background-color: #000;height: 1px}
 
 body {
-
+  overflow-x: hidden;
 }
 
 h1 {
@@ -55,7 +55,14 @@ h3 {
     color: white;
     background: #333;
   }
+  .cfd-section-tilte {
+    font-family: open-sans-semibold;
+    text-align: center;
+    padding: 30px 0 10px;
+    font-weight: 500;
+  }
 }
+
 
 .cfd-hidden {
   display: none !important;

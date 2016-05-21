@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">simplemde.min.css
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <title>Code for Dummies</title>
 </head>
 <body>
   <section class="cfd-container">
-    <header class="cfd-header" id="home">
+    <header class="cfd-header row" id="home">
 
       <div class="cfd-header-title">
         <h1>Code4Dummies</h1>
@@ -32,13 +32,17 @@
       <ul class="cfd-menubar">
         <li><a href="#" id="home" onclick="$('body').animatescroll();">Home</a></li>
         <li><a href="#posts" onclick="$('#posts').animatescroll();">Posts</a></li>
-        <li><a href="#subjects" onclick="$('#subjects').animatescroll();">Subjects</a></li>
+        <li><a href="#categories" onclick="$('#categories').animatescroll();">Categories</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#footer" onclick="$('#footer').animatescroll();">Contributors</a></li>
       </ul>
     </nav>
 
     <article class="cfd-article-posts" id="posts">
+        <div class="cfd-section-tilte">
+          <h3> &#60;Recent Posts  &#47;&#62;</h3>
+        </div>
+
         <ul class="cfd-posts-list">
           <li class="cfd-post-item">
             <div class="cfd-post-title">
@@ -136,38 +140,42 @@
       </div>
     </article>
 
-    <article class="cfd-article-subjects" id="subjects">
-      <ul class="cfd-subjects-list">
-        <li class="cfd-subjects-item">
+    <article class="cfd-article-categories" id="categories">
+      <div class="cfd-section-tilte">
+        <h3> &#60;Categories &#47;&#62;</h3>
+      </div>
+
+      <ul class="cfd-categories-list">
+        <li class="cfd-categories-item">
           <a href="#"><span class="icon-html5"></span></a>
         </li>
-        <li class="cfd-subjects-item">
+        <li class="cfd-categories-item">
           <a href="#"><span class="icon-javascript"></span></a>
         </li>
-        <li class="cfd-subjects-item">
+        <li class="cfd-categories-item">
           <a href="#"><span class="icon-jquery"></span></a>
         </li>
-        <li class="cfd-subjects-item">
+        <li class="cfd-categories-item">
           <a href="#"><span class="icon-css32"></span></a>
         </li>
-        <li class="cfd-subjects-item">
+        <li class="cfd-categories-item">
           <a href="#"><span class="icon-java"></span></a>
         </li>
-        <li class="cfd-subjects-item">
+        <li class="cfd-categories-item">
           <a href="#"><span class="icon-php"></span></a>
         </li>
-        <li class="cfd-subjects-item">
+        <li class="cfd-categories-item">
           <a href="#"><span class="icon-rails"></span></a>
         </li>
       </ul>
     </article>
 
     <footer class="cfd-footer" id="footer">
-      <div class="cfd-footer-title">
-        <h3 style="color:white">Contributors:</h3>
+      <div class="cfd-section-tilte">
+        <h3 style="color:white"> &#60;Contributors &#47;&#62;</h3>
       </div>
-      <div class="cfd-wrapper-image">
 
+      <div class="cfd-wrapper-image">
         <div class="cfd-img cfd-img-profile">
           <img src="https://avatars2.githubusercontent.com/u/3047016?v=3&s=460">
         </div>
