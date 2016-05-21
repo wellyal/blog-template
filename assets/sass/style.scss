@@ -1,5 +1,13 @@
+/*fonts*/
 @import '../fonts/fonts';
-@import 'modules/base';
+
+/*base*/
+@import 'base/base';
+@import 'base/helpers';
+@import 'base/mixins';
+@import 'base/placeholders';
+
+/*modules*/
 @import 'modules/buttons';
 @import 'modules/control';
 @import 'modules/footer';
@@ -7,4 +15,9 @@
 @import 'modules/post';
 @import 'modules/subjects';
 @import 'modules/navbar';
-@import 'modules/panel'
+@import 'modules/panel';
+
+/*pages*/
+@import 'pages/article';
+
+

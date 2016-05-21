@@ -26,20 +26,16 @@ cfd.menubar = (function() {
     });
   }
 
-  function overGithubIcon() {
-    $( '.cfd-header-disclaimer' ).on({
-      mouseover:function () {
-       $( "#githubicon" ).removeClass( 'cfd-hidden' );
-      },
-      mouseleave:function() {
-       $( "#githubicon" ).addClass( 'cfd-hidden' );
-      }
+  function goTo() {
+    $( '.cfd-post-item' ).on( 'click', function(){
+      window.location="templates/article.html";
     });
   }
 
   function init() {
     redirect();
     overGithubIcon();
+    goTo();
   }
 
   return {
@@ -47,6 +43,5 @@ cfd.menubar = (function() {
   };
 
 }(jQuery));
-
 
 cfd.menubar.init();

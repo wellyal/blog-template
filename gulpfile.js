@@ -31,6 +31,7 @@ gulp.task( 'deploy', function () {
 
     var globs = [
         'assets/**',
+        'templates/**',
         'index.html'
     ];
 

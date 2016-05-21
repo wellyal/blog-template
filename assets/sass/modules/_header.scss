@@ -1,7 +1,7 @@
 .cfd-header {
-  height: 100vh;
   background-image: url(../images/background.png);
   background-size: cover;
+  @include calc(height, "100vh - 50px");
 
   .cfd-header-title {
     text-align: center;

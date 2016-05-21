@@ -1,0 +1,26 @@
+.cfd-article-header {
+  background-image: url(http://netdna.webdesignerdepot.com/uploads/2014/12/featured27.jpg);
+  background-size: cover;
+  @include calc(height, "50vh - 50px");
+
+  .cfd-article-title {
+    background-color: #333;
+    display: table;
+    margin: 0 auto;
+    transform: translateY(50%);
+    opacity: 0.8;
+    text-align: center;
+
+    h2, h3 {
+      color: white;
+    }
+  }
+}
+
+.cfd-article-content {
+  margin: 40px auto;
+  max-width: 70%;
+  font-family: open-sans;
+  white-space: pre-line;
+  font-size: 16px;
+}

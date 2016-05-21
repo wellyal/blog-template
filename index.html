@@ -8,8 +8,24 @@
   <title>Code for Dummies</title>
 </head>
 <body>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="http://cluster-piwik.locaweb.com.br/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 7506]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
   <section class="cfd-container">
-    <header class="cfd-header row" id="home">
+    <header class="cfd-header row">
 
       <div class="cfd-header-title">
         <h1>Code4Dummies</h1>
@@ -25,12 +41,8 @@
     </header>
 
     <nav>
-      <div class="cfd-logo">
-        <a href="#"><img src="assets/images/logo.png"></a>
-      </div>
-
       <ul class="cfd-menubar">
-        <li><a href="#" id="home" onclick="$('body').animatescroll();">Home</a></li>
+        <li><a href="#" onclick="$('body').animatescroll();">Home</a></li>
         <li><a href="#posts" onclick="$('#posts').animatescroll();">Posts</a></li>
         <li><a href="#categories" onclick="$('#categories').animatescroll();">Categories</a></li>
         <li><a href="#">About</a></li>
@@ -39,14 +51,15 @@
     </nav>
 
     <article class="cfd-article-posts" id="posts">
-        <div class="cfd-section-tilte">
-          <h3> &#60;Recent Posts  &#47;&#62;</h3>
-        </div>
+      <div class="cfd-section-tilte">
+        <h2> &#60;Recent Posts &#47;&#62;</h2>
+        <h4>All our experienses shared here</h4>
+      </div>
 
         <ul class="cfd-posts-list">
           <li class="cfd-post-item">
             <div class="cfd-post-title">
-              <h4>Uncovering Javascript</h4>
+              <h5>Uncovering Javascript</h5>
             </div>
             <div class="cfd-post-image">
               <img src="https://udemy-images.udemy.com/course/750x422/672274_cd11_2.jpg">
@@ -60,7 +73,7 @@
 
           <li class="cfd-post-item">
             <div class="cfd-post-title">
-              <h4>How Can You Measure UX Without Observing Users</h4>
+              <h5>How Can You Measure UX Without Observing Users</h5>
             </div>
             <div class="cfd-post-image">
               <img src="http://netdna.webdesignerdepot.com/uploads/2014/12/featured27.jpg">
@@ -74,7 +87,7 @@
 
           <li class="cfd-post-item">
             <div class="cfd-post-title">
-              <h4>Uncovering Javascript</h4>
+              <h5>Uncovering Javascript</h5>
             </div>
             <div class="cfd-post-image">
               <img src="https://udemy-images.udemy.com/course/750x422/672274_cd11_2.jpg">
@@ -88,7 +101,7 @@
 
           <li class="cfd-post-item">
             <div class="cfd-post-title">
-              <h4>Uncovering Javascript</h4>
+              <h5>Uncovering Javascript</h5>
             </div>
             <div class="cfd-post-image">
               <img src="https://udemy-images.udemy.com/course/750x422/672274_cd11_2.jpg">
@@ -143,6 +156,7 @@
     <article class="cfd-article-categories" id="categories">
       <div class="cfd-section-tilte">
         <h2> &#60;Categories &#47;&#62;</h2>
+        <h4>Filter for subjects of your behalf</h4>
       </div>
 
       <ul class="cfd-categories-list">
@@ -171,8 +185,9 @@
     </article>
 
     <footer class="cfd-footer" id="footer">
-      <div class="cfd-section-tilte">
-        <h3 style="color:white"> &#60;Contributors &#47;&#62;</h3>
+      <div class="cfd-section-tilte" style="color:white">
+        <h2> &#60;Contributors &#47;&#62;</h2>
+        <h4>Everyone who participated to make this blog better to teach and learn</h4>
       </div>
 
       <div class="cfd-wrapper-image">
@@ -181,7 +196,7 @@
         </div>
 
         <div class="cfd-name-profile">
-          <a href="https://github.com/wellingtonamaralleitao" target="_blank"><h4>Wellyngton Amaral Leitão</h4></a>
+          <a href="https://github.com/wellingtonamaralleitao" target="_blank"><h5>Wellyngton Amaral Leitão</h5></a>
         </div>
 
         <div class="cfd-contacts-profile">

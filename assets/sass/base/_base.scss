@@ -31,6 +31,7 @@ hr {margin: 0;padding: 0;border: 0;color: #000;background-color: #000;height: 1p
 
 body {
   overflow-x: hidden;
+  padding-top: 50px;
 }
 
 h1 {
@@ -49,10 +50,6 @@ h4 {
   font-size: 18px;
 }
 
-h5 {
-  font-size: 15px;
-}
-
 .cfd-container {
   width: 100%;
   height: 100%;
@@ -69,4 +66,8 @@ h5 {
     padding: 30px 0 10px;
     font-weight: 500;
   }
+}
+
+.cfd-hidden {
+  display: none !important;
 }

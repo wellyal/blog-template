@@ -36,10 +36,11 @@ $color-linkedin: #0077B5;
       padding: 5px;
       text-align: center;
 
-      h4 {
-        color: #696969;
+        > a {
+          color: #696969;
+        }
       }
-    }
+
 
     .cfd-contacts-profile {
       text-align: center;
