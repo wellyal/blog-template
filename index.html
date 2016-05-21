@@ -5,18 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">simplemde.min.css
-<link rel="stylesheet" type="text/css" href="assets/vendors/simplemde.min.css">
   <title>Code for Dummies</title>
 </head>
 <body>
   <section class="cfd-container">
-    <header class="cfd-header">
-      <div class="cfd-logo">
-      </div>
+    <header class="cfd-header" id="home">
 
       <div class="cfd-header-title">
         <h1>Code4Dummies</h1>
-        <h3>The best way to beggin learning how to solve problems coding</h2>
+        <h3>The best place to learn how to solve problems with code</h2>
       </div>
 
       <div class="cfd-message-github">
@@ -28,13 +25,16 @@
     </header>
 
     <nav>
+      <div class="cfd-logo">
+        <a href="#"><img src="assets/images/logo.png"></a>
+      </div>
+
       <ul class="cfd-menubar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#posts" id="postslist">Posts</a></li>
-        <li><a href="#panel" id="createpost">Create</a></li>
-        <li><a href="#subjects">Subjects</a></li>
+        <li><a href="#" id="home" onclick="$('body').animatescroll();">Home</a></li>
+        <li><a href="#posts" onclick="$('#posts').animatescroll();">Posts</a></li>
+        <li><a href="#subjects" onclick="$('#subjects').animatescroll();">Subjects</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#footer">Contributors</a></li>
+        <li><a href="#footer" onclick="$('#footer').animatescroll();">Contributors</a></li>
       </ul>
     </nav>
 
@@ -187,8 +187,7 @@
   </section>
 
   <script src="assets/vendors/jquery.min.js"></script>
-  <script src="assets/vendors/jasmine.js"></script>
-  <script src="assets/vendors/simplemde.min.js"></script>
+  <script src="assets/vendors/animatescroll.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 </html>

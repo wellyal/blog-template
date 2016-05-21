@@ -1,26 +1,40 @@
 nav {
   background-color: #333;
   width: 100%;
+  padding: 10px 0;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
-}
 
-nav .cfd-menubar {
-  float: right;
-}
+  .cfd-logo {
+    position: absolute;
+    top: 0px;
+    padding: 4px 0 0 20px;
 
-nav .cfd-menubar li {
-  display: inline-block;
-
-  &:hover {
-    opacity: 0.4;
+    img {
+      height: 50px;
+    }
   }
-}
 
-nav  .cfd-menubar li a {
-    display: block;
-    color: #fff;
-    padding: 10px;
+  .cfd-menubar {
+    float: right;
+    margin-right: 5px;
+
+    li {
+      display: inline-block;
+      padding: 0 12px;
+
+      &:hover {
+        background-color: #336C7D;
+        border-radius: 4px;
+      }
+
+      a {
+        display: block;
+        color: #fff;
+        padding: 6px;
+      }
+    }
+  }
 }

@@ -29,6 +29,10 @@ input, textarea, select, button {font-size: 100%;font-family: inherit;}
 select {margin: inherit;}
 hr {margin: 0;padding: 0;border: 0;color: #000;background-color: #000;height: 1px}
 
+body {
+
+}
+
 h1 {
   font-size: 45px
 }
@@ -46,6 +50,11 @@ h3 {
   height: 100%;
   font-family: open-sans;
   font-size: 14px
+
+  ::selection {
+    color: white;
+    background: #333;
+  }
 }
 
 .cfd-hidden {
