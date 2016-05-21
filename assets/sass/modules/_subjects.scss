@@ -9,6 +9,51 @@ $background-color-categories: #E6E6E6;
         display: inline-block;
         font-size: 100px;
         padding: 18px;
+
+        .icon-html5 {
+            &:hover{
+                color: #E34F26;
+            }
+        }
+
+        .icon-jquery {
+            &:hover{
+                color: #0868AC;
+            }
+        }
+
+        .icon-css32 {
+            &:hover{
+                color: #016FBA;
+            }
+        }
+
+        .icon-java {
+            &:hover{
+                color: #0A6EB6;
+            }
+        }
+
+        .icon-rails {
+            &:hover{
+                color: #A62C39;
+            }
+        }
+
+        .icon-php {
+            &:hover{
+                color: #6C7EB7;
+            }
+        }
+
+        .icon-javascript {
+            &:hover{
+                color: #D6BA32;
+            }
+        }
+
+
+
     }
   }
 }
