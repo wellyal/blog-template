@@ -1,12 +1,14 @@
 # blog-template
 
-![Main page](https://snag.gy/U9sa6V.jpg)  
+![Main page](https://snag.gy/6RtVT9.jpg)  
 
-![Recent Posts](https://snag.gy/tWz72n.jpg)
+![Recent Posts](https://snag.gy/McOCJw.jpg)
 
-![Categories](https://snag.gy/0wEbUa.jpg)
+![Categories and Contributors](https://snag.gy/ahCZJD.jpg)
 
-![Contributors](https://snag.gy/j6MndY.jpg)
+![Post](https://snag.gy/iqFtN0.jpg)
+
+![Post Details and Related](https://snag.gy/zdpbqD.jpg)
 
 
 
