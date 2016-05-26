@@ -23,16 +23,13 @@
         <li><a href="../index.html#posts" onclick="$('#posts').animatescroll();">Posts</a></li>
         <li><a href="../index.html#categories" onclick="$('#categories').animatescroll();">Categories</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#footer" onclick="$('#footer').animatescroll();">Contributors</a></li>
+        <li><a href="../index.html#footer" onclick="$('#footer').animatescroll();">Contributors</a></li>
       </ul>
     </nav>
 
-    <article class="cfd-article-content">
-      <div class="cfd-author-profile">
-        <img src="https://avatars2.githubusercontent.com/u/3047016?v=3&s=460">
-        <div>Wellyngton Amaral Leitão</div>
-      </div>
-      <div>
+    <article class="cfd-article-content" id="content">
+      <a href="#" onclick="$('#content').animatescroll();"><span class="icon-circle-up"></span></a>
+      <div class="cfd-article-inner">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed neque sollicitudin, consectetur ligula id, eleifend erat. Fusce tincidunt tortor ultricies urna consequat cursus. Aliquam at tincidunt risus, et laoreet libero. Phasellus et vehicula nisl. Mauris dui eros, pulvinar et nibh ac, placerat sagittis lorem. Suspendisse suscipit lacinia tempus. Aliquam finibus turpis ipsum, in laoreet mauris dignissim sed. Aliquam volutpat lacus velit, at ultrices ipsum vulputate et. Praesent eu dui nisi. Curabitur semper ante ac nibh sollicitudin blandit. Quisque aliquam aliquet interdum. Donec tempor pellentesque lorem quis auctor.
         </p>
@@ -57,6 +54,18 @@
         <p>
           Ut accumsan arcu sit amet malesuada mollis. Cras consectetur fermentum dui sed accumsan. Integer rhoncus ultrices tortor at placerat. Duis vel dui non libero hendrerit auctor. Praesent nec pretium justo, non mattis orci. Aenean ac turpis sed odio vestibulum tristique nec vitae lectus. Duis viverra, metus nec tempus porta, enim erat imperdiet sapien, in tristique felis justo at ligula. Donec laoreet vitae sapien vel tincidunt. Vivamus id lectus odio. Donec fringilla hendrerit erat eu aliquam. Ut tempor, nunc dapibus bibendum suscipit, dui mauris congue elit, ullamcorper vulputate lectus magna in leo. Curabitur a purus vehicula, pulvinar justo non, ultricies quam. Aliquam erat volutpat. Donec dictum diam quis urna posuere pretium. Nulla eleifend sagittis leo, a sodales nisl.
         </p>
+      </div>
+
+      <div class="cfd-author-information">
+        <div class="cfd-wrapper">
+          <div class="cfd-author-name">Wellyngton Amaral Leitão</div>
+          <div class="cfd-author-profile">
+            <img src="https://avatars2.githubusercontent.com/u/3047016?v=3&s=460">
+          </div>
+          <div class="cfd-author-details">
+            Full Stack developer capable to work with back-end and front-end tecnologies, always learning more and more with the people I've been working with. I have worked a lot with javascript and jquery trying to make my code as cleaner as possible. Also an open source developer looking for good projects to work with.
+          </div>
+        </div>
       </div>
     </article>
 
@@ -100,6 +109,6 @@
 
   <script src="../assets/vendors/jquery.min.js"></script>
   <script src="../assets/vendors/animatescroll.min.js"></script>
-  <script src="../assets/js/script.js"></script>
+  <script src="../assets/js/article.js"></script>
 </body>
 </html>

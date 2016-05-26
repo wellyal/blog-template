@@ -25,16 +25,46 @@
   white-space: pre-line;
   font-size: 16px;
 
-  .cfd-author-profile {
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
+  .icon-circle-up {
+    font-size: 35px;
+    position: fixed;
+    opacity: 0.5;
+    bottom: 45px;
+    right: 60px;
+    z-index: 9999;
 
-    img {
-      height: 60px;
-      width: 60px;
-      border-radius: 100px;
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
     }
+  }
+
+  .cfd-author-information {
+    background-color: #cecece;
+    border-radius: 15px;
+
+    .cfd-wrapper {
+        display: inline-table;
+        padding: 10px;
+
+      .cfd-author-name {
+        font-weight: bold;
+        display: inline;
+      }
+
+      .cfd-author-profile {
+        padding: 0 25px;
+        float: left;
+
+        img {
+          height: 60px;
+          width: 60px;
+          border-radius: 100px;
+          display: block;
+        }
+      }
+  }
+
   }
 }
 

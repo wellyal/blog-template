@@ -1,6 +1,6 @@
 var cfd = cfd || {};
 
-cfd.menubar = (function() {
+cfd.main = (function() {
   'use strict';
 
   function redirect() {
@@ -44,4 +44,4 @@ cfd.menubar = (function() {
 
 }(jQuery));
 
-cfd.menubar.init();
+cfd.main.init();
