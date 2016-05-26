@@ -19,10 +19,23 @@
 
 .cfd-article-content {
   margin: 40px auto;
+  margin-top: 0;
   max-width: 70%;
   font-family: open-sans;
   white-space: pre-line;
   font-size: 16px;
+
+  .cfd-author-profile {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+
+    img {
+      height: 60px;
+      width: 60px;
+      border-radius: 100px;
+    }
+  }
 }
 
 .cfd-article-related {
