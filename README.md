@@ -1,5 +1,7 @@
 # blog-template
 
+Blog layout for code4dummies.
+
 ![Main page](https://snag.gy/6RtVT9.jpg)  
 
 ![Recent Posts](https://snag.gy/McOCJw.jpg)
