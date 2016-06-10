@@ -17,6 +17,32 @@
   }
 }
 
+.cfd-list-tags {
+  text-align: center;
+
+  .cfd-tags-item {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    padding: 0 12px;
+    border-radius: 10px;
+    background-color: #ccc;
+    margin: 0 8px;
+    opacity: 0.5;
+    cursor: pointer;
+
+    &:hover{
+      opacity: 1;
+    }
+
+    a {
+        text-decoration: underline;
+        color: #f23232;
+    }
+  }
+}
+
+
 .cfd-article-content {
   margin: 40px auto;
   margin-top: 0;
@@ -38,33 +64,38 @@
       cursor: pointer;
     }
   }
+}
 
-  .cfd-author-information {
-    background-color: #cecece;
-    border-radius: 15px;
+.cfd-author-information {
+  background-color: #ccc;
+  border-radius: 5px;
+  padding: 12px;
 
-    .cfd-wrapper {
-        display: inline-table;
-        padding: 10px;
+  .cfd-author-image {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
+    float: left;
 
-      .cfd-author-name {
-        font-weight: bold;
-        display: inline;
-      }
-
-      .cfd-author-profile {
-        padding: 0 25px;
-        float: left;
-
-        img {
-          height: 60px;
-          width: 60px;
-          border-radius: 100px;
-          display: block;
-        }
-      }
+    img {
+      position: relative;
+      float: left;
+      height: 150px;
+      bottom: 22px;
+      border-radius: 100px;
+    }
   }
 
+  .cfd-author-name {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .cfd-author-details {
+    position: relative;
+    bottom: 45px;
   }
 }
 
