@@ -24,11 +24,11 @@
 
   <nav>
 	<ul class="cfd-menubar">
-	 <li><a href="../index.html#body" onclick="$('body').animatescroll();">Home</a></li>
-	 <li><a href="../index.html#posts" onclick="$('#posts').animatescroll();">Posts</a></li>
-	 <li><a href="../index.html#categories" onclick="$('#categories').animatescroll();">Categories</a></li>
+	 <li><a href="../main.html#body" onclick="$('body').animatescroll();">Home</a></li>
+	 <li><a href="../main.html#posts" onclick="$('#posts').animatescroll();">Posts</a></li>
+	 <li><a href="../main.html#categories" onclick="$('#categories').animatescroll();">Categories</a></li>
 	 <li><a href="#">About</a></li>
-	 <li><a href="../index.html#footer" onclick="$('#footer').animatescroll();">Contributors</a></li>
+	 <li><a href="../main.html#footer" onclick="$('#footer').animatescroll();">Contributors</a></li>
 	</ul>
   </nav>
 
@@ -54,6 +54,23 @@
 		<p>
 		 Suspendisse potenti. Maecenas scelerisque ex id maximus tincidunt. Sed euismod enim a dui varius, ac interdum turpis placerat. Aenean ut neque ex. Pellentesque cursus vitae enim id sollicitudin. Duis pharetra tempus enim a fringilla. Praesent ut erat vitae libero elementum pellentesque ac ut risus.
 		</p>
+<pre>
+
+var Graph = (function (undefined) {
+
+var extractKeys = function (obj) {
+	var keys = [], key;
+	for (key in obj) {
+	    Object.prototype.hasOwnProperty.call(obj,key) && keys.push(key);
+	}
+	return keys;
+}
+
+var sorter = function (a, b) {
+	return parseFloat (a) - parseFloat (b);
+}
+
+</pre>
 		<p>
 		 Donec eu elementum elit, sed eleifend tortor. Quisque malesuada elit massa, vitae tempor dui commodo at. Mauris dui nisi, lobortis maximus est sed, porta tincidunt justo. Vivamus vel tincidunt mi. Donec vehicula augue non mollis porta. Suspendisse vulputate consectetur ligula ac accumsan. Nam auctor quam sit amet bibendum blandit. Nullam cursus odio vitae varius commodo. Proin sed eleifend tortor. Nulla semper vulputate ex in finibus. Morbi scelerisque rutrum lorem in vehicula. Quisque iaculis purus quis nisl vulputate iaculis. Etiam feugiat vitae nibh non congue.
 		</p>
@@ -66,6 +83,26 @@
 		<p>
 		 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed tempus vulputate porta. Nam sed orci et velit viverra eleifend. Ut bibendum convallis arcu at commodo. Aliquam at felis nulla. Nullam congue, arcu at scelerisque consequat, urna nisi vehicula elit, quis pharetra risus eros et lorem. Fusce mattis tortor eu luctus varius. Vivamus porttitor felis id bibendum porta. In commodo diam at orci scelerisque, sed varius neque aliquet. Donec gravida metus eget elementum vulputate. Fusce lorem urna, porttitor et tincidunt quis, efficitur ut erat.
 		</p>
+
+<pre class="prettyprint linenums">
+var findPaths = function (map, start, end, infinity) {
+	infinity = infinity || Infinity;
+
+	var costs = {},
+	    open = {'0': [start]},
+	    predecessors = {},
+	    keys;
+
+	var addToOpen = function (cost, vertex) {
+		var key = "" + cost;
+		if (!open[key]) open[key] = [];
+		open[key].push(vertex);
+	}
+
+	costs[start] = 0;
+
+	while (open) {
+</pre>
 		<p>
 		 Ut accumsan arcu sit amet malesuada mollis. Cras consectetur fermentum dui sed accumsan. Integer rhoncus ultrices tortor at placerat. Duis vel dui non libero hendrerit auctor. Praesent nec pretium justo, non mattis orci. Aenean ac turpis sed odio vestibulum tristique nec vitae lectus. Duis viverra, metus nec tempus porta, enim erat imperdiet sapien, in tristique felis justo at ligula. Donec laoreet vitae sapien vel tincidunt. Vivamus id lectus odio. Donec fringilla hendrerit erat eu aliquam. Ut tempor, nunc dapibus bibendum suscipit, dui mauris congue elit, ullamcorper vulputate lectus magna in leo. Curabitur a purus vehicula, pulvinar justo non, ultricies quam. Aliquam erat volutpat. Donec dictum diam quis urna posuere pretium. Nulla eleifend sagittis leo, a sodales nisl.
 		</p>
@@ -123,6 +160,7 @@
  <script src="../assets/vendors/jquery.min.js"></script>
  <script src="../assets/vendors/animatescroll.min.js"></script>
  <script src="../assets/vendors/scrollmenubar.js"></script>
+ <script src="../assets/vendors/run_prettify.js?autoload=true&amp;skin=sunburst&amp;lang=css" defer="defer"></script>
  <script src="../assets/js/article.js"></script>
 </body>
 </html>
