@@ -3,6 +3,30 @@
   background-size: cover;
   @include calc(height, "100vh - 50px");
 
+  .cfd-header-disclaimer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+    &:before {
+      content: '';
+      flex: 1;
+    }
+
+    .cfd-message-github {
+      text-align: center;
+      position: relative;
+      top: 28px;
+    }
+
+    .cfd-image-github {
+      font-size: 125px;
+      height: 222px;
+    }
+  }
+
   .cfd-header-title {
     text-align: center;
     position: relative;
@@ -10,25 +34,4 @@
     transform: translateY(-50%);
   }
 
-  .cfd-message-github {
-    position: absolute;
-    bottom: 105px;
-    left: 47%;
-
-    > span {
-      font-size: 18px;
-    }
-  }
-
-  .cfd-header-disclaimer {
-    position: absolute;
-    font-size: 130px;
-    bottom: -45px;
-    left: 46%;
-
-    > a {
-      display: inline-flex;
-    }
-
-  }
 }

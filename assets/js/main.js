@@ -30,7 +30,7 @@ cfd.main = (function() {
 	}
 
 	function overGithubIcon () {
-		$( '.cfd-header-disclaimer' ).on({
+		$( '.cfd-image-github' ).on({
 			mouseover:function () {
 				$( "#githubicon" ).removeClass( 'cfd-hidden' );
 			},
