@@ -29,8 +29,5 @@
     "gulp-util": "^3.0.7",
     "jasmine": "^2.4.1",
     "vinyl-ftp": "^0.4.5"
-  },
-  "dependencies": {
-    "simplemde": "^1.10.1"
   }
 }

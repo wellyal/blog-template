@@ -39,3 +39,21 @@ nav {
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    height: 31px;
+    .cfd-menubar {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  a {color: green;}
+}
+
+@media screen and (min-width: 1200px) {
+  a {color: black;}
+}
+

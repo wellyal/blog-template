@@ -7,12 +7,27 @@
     background-color: #333;
     display: table;
     margin: 0 auto;
-    transform: translateY(50%);
+    transform: translateY(60%);
     opacity: 0.8;
     text-align: center;
 
     h2, h3 {
       color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cfd-article-header {
+    .cfd-article-title {
+        transform: translateY(10%);
+
+        h2{
+          font-size: 25px;
+        }
+        h3 {
+          font-size: 20px;
+        }
     }
   }
 }
@@ -42,11 +57,10 @@
   }
 }
 
-
 .cfd-article-content {
   margin: 40px auto;
   margin-top: 0;
-  max-width: 70%;
+  max-width: 50%;
   font-family: open-sans;
   white-space: pre-line;
   font-size: 16px;
@@ -63,6 +77,12 @@
       opacity: 1;
       cursor: pointer;
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cfd-article-content {
+    max-width: 80%;
   }
 }
 

@@ -47,3 +47,33 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cfd-article-posts {
+    .cfd-posts-list {
+      width: 95%;
+      .cfd-post-item {
+        height: 150px;
+        width: 125px;
+
+        .cfd-post-image {
+          img {
+            width: 125px;
+            height: 108px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  a {color: green;}
+}
+
+@media screen and (min-width: 1200px) {
+  a {color: black;}
+}
+
+
+
